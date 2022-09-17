@@ -54,3 +54,7 @@ Props are objects that can be used as arguments, these props carry data and allo
 1. What is the flow of props?
 
 - the flow of props is “one way” which is from top down or from parent to child and is read only so an error will get thrown of you try to manipulate the prop “outside of its scope….?” Im not sure if thats how you word it. Well find out.
+
+## things I want to know more about
+
+So im understanding the broad stroked of this topic, however, I feel like i understand it on a subconcous level, I am struggling to find the right words for it.So once that uploads Ill probably have a question or two.
