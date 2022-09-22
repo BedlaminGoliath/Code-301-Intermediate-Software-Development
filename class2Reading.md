@@ -52,6 +52,40 @@ Before the React component is mounted the `constructor()` is called. If this is 
 
 - `componentWillUnmount()` lets you clean up the DOM of requests.
 
+## Video
+
+### What types of things can you pass in the props?
+
+- if you have a counter app your gonna need to intial count inside the props. These are things you are gonna pass to a function.
+
+- you want to display a title and subtitle, then you would want to pass the title and subtitle through the props. this is what you want your function to take. if something in the app changes then the component gets rerendered
+
+### What is the big difference between props and state?
+
+- props you pass into the component state in handled inside thayt  component and props are handled outside that component
+
+intial state gets set to current count ('0')
+
+### When do we re-render our application?
+
+- when the state changes.
+
+### What are some examples of things that we could store in state?
+
+- We could set a counter to '0' and this would set the state to '0' and then the component would render then this data, if the state changes then the state would change and rerender the image.
+
+- Another examlple would be a blank form, the blank form would be rendered via the components and then when the name is added or whatever drop boxes are check then the state would be changed and then so would the state, we would then rerender.
+
+### Two ways to think about data : Props ansd State
+
+- state is there to store or rerender so it acts like memory or "current state" this is when something dynamically changes.
+
+Props: are like an argument to a function, when a component is created and you want it rendered you need to pass the props you want it to have. Props are like a variable to a component
+
+if you have a counter app your gonna need to intial count inside the props.
+
+You are
+
 ## Things i want to know more of
 
 - I want to better understand the image that was shown to us on te reading assignment. I can see it but getting it explained to me would be awesome, something is missing.
